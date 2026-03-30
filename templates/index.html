@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compiler</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<h2>Online Code Compiler</h2>
+
+<textarea id="code" rows="10" placeholder="Write code here"></textarea>
+
+<h3>Input:</h3>
+<textarea id="input" rows="5"></textarea>
+
+<br><br>
+
+<select id="language">
+    <option value="71">Python</option>
+    <option value="54">C++</option>
+    <option value="62">Java</option>
+</select>
+
+<br><br>
+
+<button onclick="runCode()">Run</button>
+<button onclick="getHistory()">History</button>
+
+<h3>Output:</h3>
+<pre id="output"></pre>
+
+<h3>History:</h3>
+<pre id="history"></pre>
+
+<script src="/static/js/main.js"></script>
+<script src="/static/js/history.js"></script>
+
+</body>
+</html>
